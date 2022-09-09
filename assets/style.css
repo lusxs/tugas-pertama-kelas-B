@@ -1,0 +1,369 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    font-family: 'Poppins';
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #152C5B;
+}
+
+li {
+    margin-right: 15px;
+}
+
+.header {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #E5E5E5;
+}
+
+.header h1 {
+    color: #152C5B;
+}
+
+.stay {
+    color: #3252DF;
+}
+
+.firstlist {
+    color: #3252DF;
+}
+
+main .show__me {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.forget__your {
+    position: relative;
+    margin-right: 300px;
+}
+
+.forget__your h2 {
+    font-size: 42px;
+    color: #152C5B;
+}
+
+.forget__your p {
+    color: #B0B0B0;
+}
+
+.forget__your button {
+    background-color: #3252DF;
+    color: white;
+    border: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+
+.travel {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    left: 0;
+}
+
+.travel div {
+    margin-right: 30px;
+}
+
+.travel span {
+    color: #152C5B;
+    font-weight: bold;
+}
+
+.most {
+    padding-left: 70px;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width:max-content ;
+    margin-top: 100px;
+
+}
+
+.most h2 {
+    padding-right: 70px;
+    color: #152C5B;
+}
+
+.picked {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: 30px;
+
+}
+
+.pink {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: #FF498B;
+    height: 40px;
+    width: 180px;
+    border-radius: 0px 15px;
+}
+
+.pink p {
+    text-align :center;
+    margin: auto;
+    padding-top: 10px;
+    color: #E5E5E5;
+}
+
+.pink span {
+    font-weight: bold;
+}
+
+                
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    margin-right: 40px;
+
+    
+}
+
+.places {
+    position: absolute;
+    bottom: 70px;
+    left: 20px;
+    height: 25px;
+    width: 180px;
+}
+
+.places h4 {
+    text-align: left;
+    color: #152C5B;
+    margin: auto;
+    margin-left: 10px;
+    
+}
+
+.places p {
+    text-align: left;
+    margin: auto;
+    margin-left: 10px;
+    padding-top: 10px;
+    color: #152c5b;
+  }
+
+
+.relativ {
+    position: relative;
+
+}
+
+.relativ2 {
+    position: relative;
+
+}
+
+.relativ3 {
+    position: relative;
+    margin-right: 30px;
+    padding-left: 30px;
+
+}
+
+.relativ4 {
+    position: relative;
+
+}
+
+.relativ5 {
+    position: relative;
+    margin-right: 30px;
+    padding-left: 30px;
+
+}
+
+
+.house h3 {
+    margin-top: 50px;
+    color:#152C5B;
+    padding-left: 75px;
+}
+
+.backyard {
+    display: flex;
+    flex-direction: row;
+    font-style: normal;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.relativ {
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.town h4 {
+    color: #152C5B;
+}
+
+.town p {
+    color: #152C5B;
+}
+
+.hotel h3 {
+    margin-top: 50px;
+    color:#152C5B;
+    padding-left: 75px;
+}
+
+.room {
+    display: flex;
+    flex-direction: row;
+    font-style: normal;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.town h4 {
+    color: #152C5B;
+}
+
+.town p {
+    color: #152C5B;
+}
+
+.paragraf_color {
+    color: #B0B0B0;
+}
+
+.kitchen h3 {
+    margin-top: 50px;
+    color:#152C5B;
+    padding-left: 75px;
+}
+
+.room {
+    display: flex;
+    flex-direction: row;
+    font-style: normal;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.relativ h4 {
+    color: #152C5B;
+}
+
+
+.stars {
+    display: flex;
+}
+  
+
+footer{
+    border-top: 2px solid #E5E5E5;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.Kaboom1 {
+    flex-grow: 1;
+    margin-left: 50px;
+}
+.Kaboom2 {
+    flex-grow: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.Kaboom3 {
+    flex-grow: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Kaboom4 {
+    flex-grow: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.happy {
+    display: flex;
+    margin: 25px;
+    padding-left: 255px;
+}
+
+.family {
+    padding-left: 70px;
+
+}
+
+.familySection{
+    padding-left: 100px;
+    margin-left: 50px;
+    margin-top: 90px;
+}
+
+.familySection h3 {
+    color: #152C5B;
+}
+
+.stars {
+    display: flex;
+}
+
+.familySection h2 {
+    color: #152C5B;
+}
+
+.familySection p {
+    color: #152C5B;
+}
+
+.familySection button {
+    background-color: #3252DF;
+    color: white;
+    border: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+
+.akhir {
+    text-align: center;
+    color: #B0B0B0;
+    padding-top: 25px;
+}
+
+
+
+
+
+
+
+
